@@ -19,7 +19,7 @@ if(isset($_POST["usuario"])){
 	$senha = md5($_POST["senha"]);
 
 	// Conecta-se com o MySQL 
-mysql_connect("localhost", "root", "lic54eca"); 
+mysql_connect("", "", ""); 
 // Converte caracteres utf8 para evitar erros no banco
 mysql_query("SET NAMES 'utf8';");
 // Seleciona banco de dados 
